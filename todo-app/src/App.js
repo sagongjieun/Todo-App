@@ -1,5 +1,12 @@
+import ToDoInsert from './components/ToDoInsert';
+import ToDoTemplate from './components/ToDoTemplate';
+
 function App() {
-  return <div>ToDo App</div>;
+  return (
+    <ToDoTemplate>
+      <ToDoInsert />
+    </ToDoTemplate>
+  );
 }
 
 export default App;
